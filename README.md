@@ -26,11 +26,7 @@ pip install -r requirements.txt
 
 ## ⚙️ Configuration
 
-1. Create a project in the [Google Cloud Console](https://console.cloud.google.com)
-2. Enable the Gmail API
-3. Create OAuth 2.0 credentials
-4. Copy the `credentials.json` file to the project folder
-5. Create a `.env` file with the following variables:
+Create a `.env` file with the following variables:
 ```
 OPENAI_API_KEY=sk-proj-...
 AIRTABLE_API_KEY=
