@@ -42,20 +42,6 @@ Run project
 python chatbotTG.py
 ```
 
-Load & save docs 
-```python
-from agent import AgentCRM
-
-# init agent
-agentCRM = AgentCRM()
-
-# load docs
-docs = agentCRM.loadDoc()
-
-# save docs 
-agentCRM.saveDoc(docs)
-```
-
 ## 📁 Project Structure
 
 ```
